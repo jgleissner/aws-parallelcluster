@@ -25,7 +25,7 @@ VERSION = "2.5.1"
 REQUIRES = [
     "boto3>=1.10.15",
     "future>=0.16.0,<=0.18.2",
-    "tabulate>=0.8.2,<=0.8.3",
+    "tabulate>=0.8.2,<=0.8.5",
     "ipaddress>=1.0.22",
     "enum34>=1.1.6",
     "PyYAML==5.2" if sys.version_info.major == 3 and sys.version_info.minor <= 4 else "PyYAML>=5.1.2",
